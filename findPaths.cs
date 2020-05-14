@@ -79,8 +79,8 @@ namespace testUI
                     availablePaths.Add(pathCounter, list);
                     pathCounter++;
                     int x = path.Count -1 ;
-                    Console.WriteLine("x: " + x);
-                    Console.WriteLine("PATHLENGTH: " + path.Count);
+                    //Console.WriteLine("x: " + x);
+                    //Console.WriteLine("PATHLENGTH: " + path.Count);
                     Console.WriteLine("Path: ");
                     for (int i = 0; i < path.Count; i++)
                     {
@@ -89,8 +89,8 @@ namespace testUI
                     path.RemoveAt(x);
                     Console.WriteLine();
                     currentNodeIndex = nodes.FindIndex(item => item.getNodeName() == path[path.Count - 1].getNodeName());
-                    Console.WriteLine("indeddddd: " +  currentNodeIndex);
-                    Console.WriteLine("brrrrrrrr: " + nodes[currentNodeIndex].getNodeName());
+                    //Console.WriteLine("indeddddd: " +  currentNodeIndex);
+                    //Console.WriteLine("brrrrrrrr: " + nodes[currentNodeIndex].getNodeName());
                     //currentNodeIndex = path.Count - 1;
                 }
             }
